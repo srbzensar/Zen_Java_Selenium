@@ -1,0 +1,17 @@
+[
+  {
+    "name": "John Doe",
+    "role": "Developer",
+    "location": "Mumbai"
+  },
+  {
+    "name": "Jane Smith",
+    "role": "Tester",
+    "location": "Delhi"
+  },
+  {
+    "name": "Alice Johnson",
+    "role": "Manager",
+    "location": "Bangalore"
+  }
+]

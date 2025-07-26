@@ -1,0 +1,12 @@
+<employees>
+    <employee>
+        <name>John Doe</name>
+        <role>Developer</role>
+        <location>Mumbai</location>
+    </employee>
+    <employee>
+        <name>Jane Smith</name>
+        <role>Tester</role>
+        <location>Delhi</location>
+    </employee>
+</employees>

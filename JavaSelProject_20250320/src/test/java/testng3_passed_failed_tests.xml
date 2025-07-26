@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestOne">
+    <classes>
+      <class name="testngdemo.G_PassAndFailTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="TestTwo">
+    <classes>
+      <class name="testngdemo.BasicTestNgScript"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

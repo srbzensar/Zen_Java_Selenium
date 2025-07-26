@@ -1,0 +1,15 @@
+2024-07-18 14:54:21,389 INFO m.l.LogClass [main] Info Message!
+2024-07-18 14:55:44,694 INFO m.l.LogClass [main] Info Message!
+2024-07-18 14:58:54,965 DEBUG m.l.LogClass [main] Debug Message!
+2024-07-18 14:58:54,971 INFO m.l.LogClass [main] Info Message!
+2024-07-18 14:58:54,973 WARN m.l.LogClass [main] Warn Message!
+2024-07-18 14:58:54,973 ERROR m.l.LogClass [main] Error Message!
+2024-07-18 14:58:54,974 FATAL m.l.LogClass [main] Fatal Message!
+2024-07-18 15:05:23,163 DEBUG m.l.LogClass [main] Debug Message!
+2024-07-18 15:05:23,170 INFO m.l.LogClass [main] Info Message!
+2024-07-18 15:05:23,170 WARN m.l.LogClass [main] Warn Message!
+2024-07-18 15:05:23,170 ERROR m.l.LogClass [main] Error Message!
+2024-07-18 15:05:23,170 FATAL m.l.LogClass [main] Fatal Message!
+2024-07-18 15:07:39,917 WARN m.l.LogClass [main] Warn Message!
+2024-07-18 15:07:39,935 ERROR m.l.LogClass [main] Error Message!
+2024-07-18 15:07:39,936 FATAL m.l.LogClass [main] Fatal Message!

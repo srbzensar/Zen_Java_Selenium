@@ -1,0 +1,8 @@
+2024-08-07 11:01:51,230 WARN m.l.LogClass [main] Warn Message!
+2024-08-07 11:01:51,237 ERROR m.l.LogClass [main] Error Message!
+2024-08-07 11:01:51,238 FATAL m.l.LogClass [main] Fatal Message!
+2024-08-07 11:06:09,288 DEBUG m.l.LogClass [main] Debug Message!
+2024-08-07 11:06:09,297 INFO m.l.LogClass [main] Info Message!
+2024-08-07 11:06:09,297 WARN m.l.LogClass [main] Warn Message!
+2024-08-07 11:06:09,298 ERROR m.l.LogClass [main] Error Message!
+2024-08-07 11:06:09,298 FATAL m.l.LogClass [main] Fatal Message!

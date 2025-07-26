@@ -1,0 +1,31 @@
+package complexactions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class MouseHoverEx {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = new ChromeDriver(); 
+		String url = "https://the-internet.herokuapp.com/hovers";
+		
+		driver.get(url);
+		System.out.println(driver.getTitle());
+		
+		WebElement e1 = driver.findElement(By.xpath("//div[2]/img[@alt='User Avatar']"));
+		
+		Thread.sleep(2000);
+		Actions action = new Actions(driver);
+		action.moveToElement(e1).perform();
+
+		
+		
+		Thread.sleep(3000);
+		driver.quit();
+		
+	}
+
+}

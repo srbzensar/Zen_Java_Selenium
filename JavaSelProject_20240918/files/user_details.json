@@ -1,0 +1,11 @@
+{
+  "employee": {
+    "name": "John Doe",
+    "role": "Developer",
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India"
+    }
+  }
+}

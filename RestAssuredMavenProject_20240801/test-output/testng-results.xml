@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-19T15:15:58 IST" name="Default suite" finished-at="2025-06-19T15:16:05 IST" duration-ms="6943">
+    <groups>
+    </groups>
+    <test started-at="2025-06-19T15:15:58 IST" name="Default test" finished-at="2025-06-19T15:16:05 IST" duration-ms="6943">
+      <class name="misc.testngdemos.GetSinglePostTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:misc.testngdemos.GetSinglePostTest@4a003cbe]" started-at="2025-06-19T15:15:58 IST" name="setup" finished-at="2025-06-19T15:15:59 IST" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fetchSinglePost()[pri:0, instance:misc.testngdemos.GetSinglePostTest@4a003cbe]" started-at="2025-06-19T15:15:59 IST" name="fetchSinglePost" finished-at="2025-06-19T15:16:05 IST" duration-ms="5671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSinglePost -->
+      </class> <!-- misc.testngdemos.GetSinglePostTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
