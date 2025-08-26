@@ -10,12 +10,14 @@
 
 	<dependencies>
 		
+		<!-- for writing and executing BDD style tests using Gherkin Syntax -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>7.21.1</version>
 		</dependency>
 
+		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

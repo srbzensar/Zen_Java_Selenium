@@ -25,7 +25,7 @@ public class A_YahooLoginNormal {
 		WebElement username = driver.findElement(By.id("login-username"));
 		WebElement signin = driver.findElement(By.id("login-signin"));
 		String id = "test.selenium@myyahoo.com";
-		String pwd = "AutomateDemo@123";
+		String pwd = "SeleniumDemo@123";
 		
 		
 		username.sendKeys(id);

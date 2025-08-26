@@ -9,6 +9,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+/*
+3 ways to switch to a frame
+switchTo.frame(id/name)
+switchTo.frame(index)
+switchTo.frame(element)
+
+switch to the parent frame
+switchTo.parentFrame()
+
+switch to the main page
+switchTo.defaultContent()
+*/
+
 public class B_HandlingFrames {
 
 	public static void main(String[] args) throws InterruptedException {

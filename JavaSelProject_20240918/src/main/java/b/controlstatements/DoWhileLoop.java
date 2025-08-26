@@ -11,7 +11,7 @@ public class DoWhileLoop {
 			i++;
 		}while(i<=10);
 		
-		
+
 	}
 
 }

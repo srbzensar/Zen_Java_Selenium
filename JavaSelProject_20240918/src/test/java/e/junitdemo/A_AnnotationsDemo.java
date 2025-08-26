@@ -31,9 +31,14 @@ class A_AnnotationsDemo {
 	}
 
 	@Test
-	void test() {
+	void test1() {
 //		fail("Not yet implemented");
 		System.out.println("Test1 method");
+	}
+	
+	@Test
+	void test2() {
+		System.out.println("Test2 method");
 	}
 
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="TestOne">
+  	<groups>
+  		<run>
+  			<include name="smoke"></include>
+  			<exclude name="linux"></exclude>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="testngdemo.J_TestGrouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

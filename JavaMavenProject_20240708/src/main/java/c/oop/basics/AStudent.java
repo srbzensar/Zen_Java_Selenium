@@ -14,6 +14,7 @@ public class AStudent {
 //	empty constructor (if not defined, default constructor will be called)
 //	name is same as class
 //	get called automatically during object creation
+//	If we create even one constructor, default constructor will not get called.
 	public AStudent()
 	{
 		rollNo = 10;

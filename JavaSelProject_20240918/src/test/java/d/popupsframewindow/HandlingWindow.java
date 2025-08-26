@@ -34,7 +34,6 @@ public class HandlingWindow {
 
 		driver.switchTo().window(parentWindow);
 		System.out.println(driver.getTitle());
-
 		
 		Thread.sleep(3000);
 		driver.quit();

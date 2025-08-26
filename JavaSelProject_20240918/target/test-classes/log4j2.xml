@@ -19,6 +19,7 @@
 			<PatternLayout pattern="${LOG_PATTERN}"/>
 			<Policies>
 				<SizeBasedTriggeringPolicy size="5MB" />
+				<!-- if max="5MB" does not work, change it to 5 -->
 			</Policies>
 			<!-- <DefaultRollOverStrategy max="5MB"/> -->
 		</RollingFile>
@@ -29,7 +30,6 @@
 			<AppenderRef ref="File"/>
 			<AppenderRef ref="Console"/>
 		</Root>
-	
 	</Loggers>
 	
 </Configuration>

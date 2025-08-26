@@ -4,6 +4,7 @@ public class CForLoopSimple {
 
 	public static void main(String[] args) {
 
+//		for(initialization;condition;increament/decreament)
 //		for(int i=1; i<=10; i++)
 //		{
 //			System.out.println(i);
@@ -19,12 +20,12 @@ public class CForLoopSimple {
 //		}
 		
 		
-//		for(int i=0; i<=9; i++)
+//		for(int i=0; i<=9; i++)					// n = 9	(i<=n)
 //		{
 //			System.out.println(i);
 //		}
 		
-		for(int i=0; i<10; i++)
+		for(int i=0; i<10; i++)				  // n = 10		(i<n)
 		{
 			System.out.print(i + "\t"); // \n newline
 		}

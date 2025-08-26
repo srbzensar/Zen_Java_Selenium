@@ -2,7 +2,8 @@ package k.screenshotdemo;
 
 import org.testng.annotations.Test;
 
-import com.google.common.io.Files;
+//import com.google.common.io.Files;
+
 
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.OutputType;
@@ -14,6 +15,9 @@ import static org.testng.Assert.assertEquals;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.Duration;
 
 public class A_ScreenshotDemoGoogle {
@@ -29,9 +33,18 @@ public class A_ScreenshotDemoGoogle {
 	  
 	  Thread.sleep(2000);
 	  
-	  File srcFile = ts.getScreenshotAs(OutputType.FILE);
-	  Files.copy(srcFile, new File("screenshots/google_home_page.png"));
+	  Path screenshotDir = Paths.get("screenshots");
+
+	  if (!Files.exists(screenshotDir)) {
+        Files.createDirectories(screenshotDir);
+	  }
 	  
+	  File srcFile = ts.getScreenshotAs(OutputType.FILE);
+	  Files.copy(srcFile.toPath(), screenshotDir.resolve("google_home_page.png")); // modern java
+
+//	  Files.copy(srcFile, new File("screenshots/google_home_page.png")); // using google common io
+	  
+//	  challenge: take Screenshot and give unique name to the file every time, you take a screenshot.
   }
   
   @BeforeMethod

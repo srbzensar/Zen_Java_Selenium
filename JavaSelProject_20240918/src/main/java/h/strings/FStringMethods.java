@@ -39,12 +39,8 @@ public class FStringMethods {
 		
 		System.out.println(str4.replace("m", ""));
 		
-		
 //		String str3 = "now, let's do a new check. This is a new word";
 //		System.out.println(str3.replace("new", "old"));
-		
-		
-		
 	}
 
 }

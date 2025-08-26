@@ -1,6 +1,6 @@
 package d.packagesex.packo;
 
-import d.packagesex.packz.X;
+import d.packagesex.packa.X;
 
 //public class Y {
 public class Y extends X{

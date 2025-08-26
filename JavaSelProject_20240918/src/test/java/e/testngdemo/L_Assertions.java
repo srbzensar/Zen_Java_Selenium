@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertNotEquals;
 import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.fail;
 
@@ -16,6 +17,13 @@ public class L_Assertions {
   {
 	  System.out.println("This is login test");
 	  assertEquals(10, 10); // actual, expected
+  }
+  
+  @Test
+  public void test9() 
+  {
+	  System.out.println("This is my test2");
+	  assertNotEquals(10, 15); // actual, expected
   }
 
   @Test(dependsOnMethods="test1")

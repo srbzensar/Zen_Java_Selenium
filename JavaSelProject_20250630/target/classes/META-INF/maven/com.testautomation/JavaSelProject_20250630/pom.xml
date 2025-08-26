@@ -43,6 +43,21 @@
 		<!-- 	<version>4.34.0</version> -->
 		</dependency>
 
+		<!-- Htmlunit browser: headless browser -->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>htmlunit3-driver</artifactId>
+		    <version>4.33.0</version>
+		</dependency>
+
+		<!-- For using TestNg annotations, class, methods -->
+		<dependency>
+		    <groupId>org.testng</groupId>
+		    <artifactId>testng</artifactId>
+		    <version>7.11.0</version>
+		    <scope>test</scope>
+		</dependency>
+
 	</dependencies>
 
 

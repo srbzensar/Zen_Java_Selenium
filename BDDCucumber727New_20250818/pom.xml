@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.testautomation</groupId>
+	<artifactId>BDDCucumber727New_20250818</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<!-- Cucumber Core -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.27.1</version>
+		</dependency>
+
+		<!-- JUnit 5 Integration: Cucumber JVM: JUnit 5 JUnit Platform Engine -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit-platform-engine</artifactId>
+			<version>7.27.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- JUnit 5 Platform Suite -->
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-suite</artifactId>
+			<version>1.13.4</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<!-- For Assertions -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.13.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- for selenium-java coding -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.35.0</version>
+		</dependency>
+
+		<!-- for reading csv file -->
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.12.0</version>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<!-- Maven Surefire Plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.2.5</version>
+				<configuration>
+					<includes>
+						<!-- <include>**/RunCucumberTest.java</include> -->
+						<include>**/*Test.java</include>
+					</includes>
+					<excludes>
+						<exclude>**/SlowTests.java</exclude>
+					</excludes>
+
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import c.oop.basics.BStudent;
+import c.oop.basics.b.Student;
 
 public class StudentsList {
 
 	public static void main(String[] args) 
 	{
 
-		BStudent s1 = new BStudent(1, "Sachin", "Mumbai");
-		BStudent s2 = new BStudent(2, "Viru", "Delhi");
-		BStudent s3 = new BStudent(3, "Rahul", "Bengaluru");
-		BStudent s4 = new BStudent(4, "Dhoni", "Ranchi");
-		BStudent s5 = new BStudent(5, "Saurav", "Kolkata");
+		Student s1 = new Student(1, "Sachin", "Mumbai");
+		Student s2 = new Student(2, "Viru", "Delhi");
+		Student s3 = new Student(3, "Rahul", "Bengaluru");
+		Student s4 = new Student(4, "Dhoni", "Ranchi");
+		Student s5 = new Student(5, "Saurav", "Kolkata");
 		
-		List<BStudent> students = new ArrayList<BStudent>();
+		List<Student> students = new ArrayList<Student>();
 		
 		students.add(s1);
 		students.add(s2);

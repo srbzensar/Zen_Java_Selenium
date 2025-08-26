@@ -10,60 +10,37 @@ sub class			child class			derived class
 */
 
 public class Student extends Person {
-
+	
 	int rollNo;
 	String course;
 	
-	Student()
+	public Student()
 	{
+		super(); 
 		rollNo = 1;
 		course = "Java";
 	}
-	
-	Student(int rollNo, String name, String city, String course)
+
+	public Student(int rollNo, String name, String city, String course) 
 	{
+		super(name, city);
 		this.rollNo = rollNo;
-		this.name = name;
-		this.city = city;
 		this.course = course;
 	}
 	
-	/*
-	override the method from parent class
-	@Override annotation
-	not mandatory
-	but recommended
-	*/
-//	overriding the intro method
-	@Override
-	public void intro()
+	public static void takeExam()
 	{
-		System.out.println("Hello, I'm " + this.name + " from " + this.city + " learning " + this.course);
+		System.out.println("This is exam time!");
 	}
-	
-	
-	public static void main(String[] args) {
 
-//		If I've parameterised constructor, then empty constructor is mandatory for below scenario
+	public static void main(String[] args) {
 		Student s = new Student();
 		
-//		Student s = new Student(10, "Sachin", "Mumbai", "Java");
-		System.out.println("Name: " + s.name);
-		System.out.println("City: " + s.city);
+//		System.out.println(s.name);
+//		System.out.println(s.city);
 		s.intro();
-		
-		System.out.println("RollNo: " + s.rollNo);
-		System.out.println("Course: " + s.course);
 		
 		Student s2 = new Student(7, "Dhoni", "Ranchi", "Python");
 		s2.intro();
-		
-		Person p = new Person("Virat", "Delhi");
-		p.intro(); 
-		
-		
-		
-		
 	}
-
 }

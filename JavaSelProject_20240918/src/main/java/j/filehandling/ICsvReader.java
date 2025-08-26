@@ -1,8 +1,8 @@
 package j.filehandling;
 
-import java.io.IOException;
-
 import static u.myutilities.AllUtils.readCsvToArray;
+
+import java.io.IOException;
 
 public class ICsvReader 
 {

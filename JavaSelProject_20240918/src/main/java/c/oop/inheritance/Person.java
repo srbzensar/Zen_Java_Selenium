@@ -5,23 +5,22 @@ public class Person {
 	String name;
 	String city;
 	
-	Person()
+	public Person()
 	{
-		name = "Sachin";
-		city = "Mumbai";
+		this.name = "Sachin";
+		this.city = "Mumbai";
 	}
 	
-	Person(String name, String city)
+	public Person(String name, String city) 
 	{
 		this.name = name;
 		this.city = city;
 	}
-	
-	
+
 	public void intro()
 	{
-		System.out.println("Hello, I'm " + name + " from " + city);
+		System.out.println("Hello, I am " + this.name + " from " + this.city);
 	}
-	
+
 
 }

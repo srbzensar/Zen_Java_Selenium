@@ -29,3 +29,17 @@
 2024-11-13 12:25:19,335 FATAL m.l.LogClass [main] Fatal Message!
 2024-11-13 12:25:19,336 DEBUG m.l.LogClass [main] Debug Msg!: test function
 2024-11-13 12:25:19,336 INFO m.l.LogClass [main] Info Msg!: test function
+2025-08-13 17:15:55,606 INFO m.l.GoogleTest [main] Initializing ChromeDriver
+2025-08-13 17:16:01,808 DEBUG m.l.GoogleTest [main] Window maximized
+2025-08-13 17:16:01,821 INFO m.l.GoogleTest [main] Navigating to Google
+2025-08-13 17:16:03,798 INFO m.l.GoogleTest [main] Page title is: Google
+2025-08-13 17:16:03,801 INFO m.l.GoogleTest [main] Assertion passed
+2025-08-13 17:16:03,807 INFO m.l.GoogleTest [main] Closing browser
+2025-08-13 17:18:37,533 DEBUG m.l.LogClass [main] Warn Msg: static block!
+2025-08-13 17:18:37,537 DEBUG m.l.LogClass [main] Debug Message!
+2025-08-13 17:18:37,537 INFO m.l.LogClass [main] Info Message!
+2025-08-13 17:18:37,537 WARN m.l.LogClass [main] Warn Message!
+2025-08-13 17:18:37,537 ERROR m.l.LogClass [main] Error Message!
+2025-08-13 17:18:37,538 FATAL m.l.LogClass [main] Fatal Message!
+2025-08-13 17:18:37,538 DEBUG m.l.LogClass [main] Debug Msg!: test function
+2025-08-13 17:18:37,538 INFO m.l.LogClass [main] Info Msg!: test function
