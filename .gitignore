@@ -1,1 +1,97 @@
 /.metadata/
+
+# Maven build directory
+/target/
+
+# Logs
+*.log
+logs/
+
+# Eclipse metadata
+.metadata/
+bin/
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+target/
+
+# Plugin-specific settings (if any)
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.testng.eclipse.prefs
+.settings/org.eclipse.jdt.core.prefs
+
+
+# IntelliJ IDEA files
+*.iml
+.idea/
+out/
+
+# VS Code files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TestNg output
+test-output/
+
+# Test reports
+/test-output/
+surefire-reports/
+cucumber-reports/
+extent-reports/
+allure-results/
+allure-report/
+
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+# Java compiled class files
+*.class
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Coverage reports
+jacoco.exec
+coverage/
+*.ec
+*.exec
+
+# Selenium Grid logs
+grid_logs/
+
+# JMeter result files
+*.jtl
+*.jmx
+
+# Test data files
+# *.csv
+# *.xls
+# *.xlsx
+
+# Lombok config
+lombok.config
+
+# Docker artifacts
+*.pid
+*.container
+*.log
+docker-compose.override.yml
+
+# Screenshots and media
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# sub repo
+RefJavaSel_BasicToAdvance/

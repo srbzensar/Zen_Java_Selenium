@@ -1,8 +1,0 @@
-2025-04-29 16:39:06,745 WARN l.LogClass [main] Warn Msg: static block!
-2025-04-29 16:39:06,751 DEBUG l.LogClass [main] Debug Message!
-2025-04-29 16:39:06,752 INFO l.LogClass [main] Info Message!
-2025-04-29 16:39:06,753 WARN l.LogClass [main] Warn Message!
-2025-04-29 16:39:06,753 ERROR l.LogClass [main] Error Message!
-2025-04-29 16:39:06,754 FATAL l.LogClass [main] Fatal Message!
-2025-04-29 16:39:06,754 DEBUG l.LogClass [main] Debug Msg!: test function
-2025-04-29 16:39:06,755 INFO l.LogClass [main] Info Msg!: test function

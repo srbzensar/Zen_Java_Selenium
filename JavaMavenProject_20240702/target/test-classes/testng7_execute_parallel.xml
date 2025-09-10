@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="methods" name="Suite" thread-count="2">
-  <test name="TestOne">
-    <classes>
-      <class name="e.testngdemo.N_TestExecuteParallel"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
